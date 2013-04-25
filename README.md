@@ -10,6 +10,4 @@ $image = new ImageResizeCache('/PATH/TO/IMAGE/', 'IMAGE', IMAGE-SIZE);
 
 $image = $image->getImage();
 
-//display the image
-
-<img src="<?=image;?>" />
+To display the image "echo" $image as the src of HTML img tag.
